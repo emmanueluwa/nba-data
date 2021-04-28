@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import base64
 
-#intro, written text printed on the web app
+#'st.' stands for streamlit
 st.title('NBA Player Performance Stats')
 
 st.markdown("""
@@ -12,7 +12,7 @@ This app performs webscraping of NBA players stats data
 """)
 
 
-#side bar, title printed. range of years available
+#side bar, title printed. range of years to filter through
 st.sidebar.header('Choose your preferred Year, Team(s) and Postion(s)')
 selected_year = st.sidebar.selectbox('Year', list(reversed(range(2018,2022))))
 
