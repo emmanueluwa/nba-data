@@ -5,7 +5,8 @@
 Created a script that scraped basketball data from <https://www.basketball-reference.com/leagues/NBA_2021_per_game.html>
 The idea for this project was from an actual client on Upwork (a freelancing website), the client requested 'we’re looking for data extraction of basketball data from , you should be able to scrape it from given a website. Build a webpage to showcase the results'.
 
-## [View Project](nba_project · Streamlit (ful-nba.herokuapp.com))
+## [View Project](https://ful-nba.herokuapp.com/)
+When running Heroku will will take a moment to load so there will be a slight delay in loading the web app, thank you for your patience.
 
 ## Criteria 
 - Scrape data from basketball website
